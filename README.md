@@ -19,7 +19,7 @@
 | `Insert Customer` | POST http://localhost:8080/customers | { "name": "String","email":"String" }
 | `Delete Customer` | DELETE http://localhost:8080/customers/{id} | NA
 | `Update Customer` | PUT http://localhost:8080/customers/{id} | { "name": "String","email":"String" }
-| `Add Address Custumer` | GET http://localhost:8080/customers/{id}/address | { "street" : "String", "number" : int, "state" : "String" }
+| `Add Address Custumer` | POST http://localhost:8080/customers/{id}/address | { "street" : "String", "number" : int, "state" : "String" }
 
 
 
